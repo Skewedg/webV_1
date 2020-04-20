@@ -13,6 +13,9 @@
 
         <form action="app/imagen.php" method="post" enctype='multipart/form-data' class="p-4 border rounded formContainer"  >
             
+        <form action="app/imagen.php" method="post" enctype='multipart/form-data'
+              class="p-4 border rounded formContainer">
+
 
             <!-- Datos de la cuenta-->
             <fieldset class="form-group mb-4">
@@ -171,7 +174,7 @@
                 </div>
             </fieldset>
 
-            <div class="row form-group">
+            <div class="row form-group justify-content-center">
                 <div class="col-md-12">
                     <input type="submit" value="Enviar" class="btn px-4 btn-primary text-white">
                 </div>

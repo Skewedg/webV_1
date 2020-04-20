@@ -28,9 +28,11 @@ document.getElementById('files').addEventListener('change', archivo, false);
 function userForm(){
     $(document).ready(function(){
 
+       
         $("#btnUsuario").click(function(evento){
             evento.preventDefault();
-            $("#container-usuario-form").load("formUsuario.php");
+            ocultarBotones();
+            $("#container-usuario-form").load("registroUsuario.php");
         });
     });
     
@@ -50,7 +52,10 @@ function empresaForm(){
     
 }
 
-
+function ocultarBotones(){
+    document.getElementById('btnEmpresa').style.display='none';
+    document.getElementById('btnUsuario').style.display='none';
+}
 
 /*
 

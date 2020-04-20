@@ -91,13 +91,13 @@
         <!-- Mandar a traer los formularios-->
         <section class="site-section">
             <div class="container">
-                <div class="row ">
+                <div class="row justify-content-center">
 
                     <button class="col-lg-5 mb-6 active btnCallForm" type="button" id="btnUsuario" onclick="userForm()" >Registrarse Como Usuario</button>
                     <button class="col-lg-5 mb-6 active btnCallForm" type="button" id="btnEmpresa" onclick="empresaForm()">Registrarse Como Empresa</button>
 
-                    <div class="col-lg-12 mb-5 " id="container-usuario-form" ></div>
-                    <div class="col-lg-12 mb-5 " id="container-empresa-form"></div>
+                    <div class="col-lg-10 mb-5"  id="container-usuario-form" ></div>
+                    <div class="col-lg-10 mb-5"  id="container-empresa-form"></div>
                     
                 </div>
         </section>
