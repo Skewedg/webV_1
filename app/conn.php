@@ -1,8 +1,8 @@
 <?php 
 $serverName =   "localhost";
-$dbName     =   "datosMexico";
+$dbName     =   "inegi_datos";
 $username   =   "root";
-$pass       =   "";
+$pass       =   "root";
 
 $conn = mysqli_connect($serverName,$username,$pass,$dbName);
 

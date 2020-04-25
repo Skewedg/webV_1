@@ -73,7 +73,8 @@
             
             <div class="row form-group justify-content-center">
                 <div class="col-md-12 ">
-                    <input type="submit" value="Registrarse" class="btn px-4 btn-primary text-white">
+                   <a href="formUsuario.php"> <input type="button" value="Registrarse" id="btnUsuarioRegistro" class="btn px-4 btn-primary text-white">
+                </a>
                 </div>
                 
             </div>

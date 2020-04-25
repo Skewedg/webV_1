@@ -5,30 +5,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xTrabajos Registro</title>
+    <title>Formulario Usuario</title>
+    
+    <link rel="stylesheet" href="css/custom-bs.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/line-icons/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/quill.snow.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/EstilosRegistro.css">
 </head>
 <body>
-    <div class="col-lg-12 mb-5">
-        <h2 class="mb-4 title-form">Registro para Usuarios</h2>
-
+    <div class="row col-lg-12 mb-8 justify-content-center">
+        
         <form action="app/imagen.php" method="post" enctype='multipart/form-data' class="p-4 border rounded formContainer"  >
-            
-        <form action="app/imagen.php" method="post" enctype='multipart/form-data'
-              class="p-4 border rounded formContainer">
+       
 
-
+        <h2 class="mb-4 title-form"> Registro Usuario</h2>
             <!-- Datos de la cuenta-->
             <fieldset class="form-group mb-4">
                 <legend>Datos de la cuenta</legend>
-                <h>Foto de perfil</h>
-                <div class="row form-group mb-4 container_uploader" id="divInputLoad" >
-                    <br>
+                <div class="row form-group mb-12 container_uploader" id="divInputLoad">
+                    <span class="mr-2 icon-drawe-upload"></span>
+                    <br/>
                     <div id="divFileUpload">
-                        <input  name="perfilIMG" type="file" id="files" class="form-control" />
+                        <label class="btn btn-primary btn-md btn-file" for=""><span class="icon-circle-up"></span>Cargar Imagen de perfil
+                        
+                        <input name="files[]" type="file" id="files" class="form-control" />
                         <br />
                         <output id="list"></output>
+                    </label>
                     </div>
+                   
                     <div id="file-preview-zone" class="imgPreview"> </div>
+                
                 </div>
 
               

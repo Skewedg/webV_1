@@ -4,23 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario Empresa</title>
+    
+    <link rel="stylesheet" href="css/custom-bs.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/line-icons/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/quill.snow.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/EstilosRegistro.css">
 </head>
 
 <body>
 
     <!-- Segundo form-->
-    <div class="col-lg-12 mb-8">
-        <h2 class="mb-4 title-form">Registro para Empresas</h2>
+    <div class=" row col-lg-12 mb-10 justify-content-center">
+       
         <form action="#" class="p-4 border rounded formContainer">
 
-
+        <h2 class="mb-4 title-form">Registro para Empresas</h2>
             <!-- Datos de la cuenta-->
             <fieldset class="form-group mb-4">
                 <legend>Datos de la cuenta</legend>
-
-
-
                 <div class="row form-group">
                     <div class="col-md-12 mb-3 mb-md-0">
                         <label class="text-black" for="empresaForm">Nombre del responsable</label>

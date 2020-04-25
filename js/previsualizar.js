@@ -45,7 +45,8 @@ function empresaForm(){
         $("#btnEmpresa").click(function(evento){
           
             evento.preventDefault();
-            $("#container-usuario-form").load("formEmpresa.php");
+            ocultarBotones();
+            $("#container-usuario-form").load("registroEmpresa.php");
           
         });
     });
@@ -56,6 +57,7 @@ function ocultarBotones(){
     document.getElementById('btnEmpresa').style.display='none';
     document.getElementById('btnUsuario').style.display='none';
 }
+
 
 /*
 
