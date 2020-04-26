@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e8948024cf.js" crossorigin="anonymous"></script>
     <title>Formulario Usuario</title>
     
     <link rel="stylesheet" href="css/custom-bs.css">
@@ -33,7 +34,9 @@
                     <span class="mr-2 icon-drawe-upload"></span>
                     <br/>
                     <div id="divFileUpload">
-                        <label class="btn btn-primary btn-md btn-file" for=""><span class="icon-circle-up"></span>Cargar Imagen de perfil
+                        <label class="btn btn-primary btn-md btn-file" for="">Cargar Imagen de perfil
+                        &nbsp;
+                        <i class="fas fa-upload"></i>
                         
                         <input name="files[]" type="file" id="files" class="form-control" />
                         <br />
