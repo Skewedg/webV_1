@@ -19,11 +19,12 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/EstilosRegistro.css">
+    
 </head>
 <body>
     <div class="row col-lg-12 mb-8 justify-content-center">
         
-        <form action="app/imagen.php" method="post" enctype='multipart/form-data' class="p-4 border rounded formContainer"  >
+        <form action="" method="post" enctype='multipart/form-data' class="p-4 border rounded formContainer"  >
        
 
         <h2 class="mb-4 title-form"> Registro Usuario</h2>
@@ -193,7 +194,7 @@
 
             <div class="row form-group justify-content-center">
                 <div class="col-md-12">
-                    <input type="submit" value="Enviar" class="btn px-4 btn-primary text-white">
+                    <a href="usuarioIndex.html"><input type="button"value="Registrarse" class="btn px-4 btn-primary text-white"> </a>
                 </div>
                 
             </div>

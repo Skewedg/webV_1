@@ -15,10 +15,7 @@
 </head>
 <body>
     <div class="col-lg-12 mb-5">
-        <h2 class="mb-4 title-form">Registro para Usuarios</h2>
-
-
-            
+        <h2 class="mb-4 title-form">Registro para Usuarios</h2>   
         <form action="" method="post" enctype='multipart/form-data'
               class="p-4 border rounded formContainer">
 
@@ -72,9 +69,8 @@
              </div>
             
             <div class="row form-group justify-content-center">
-                <div class="col-md-12 ">
-                   <a href="formUsuario.php"> <input type="button" value="Registrarse" id="btnUsuarioRegistro" class="btn px-4 btn-primary text-white">
-                </a>
+                <div class="col-md-12">
+                    <a href="empresaIndex.html"><input type="button"value="Registrarse" class="btn px-4 btn-primary text-white"> </a>
                 </div>
                 
             </div>

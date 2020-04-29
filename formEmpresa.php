@@ -192,7 +192,7 @@
 
             <div class="row form-group">
                 <div class="col-md-12">
-                    <input type="submit" value="Sign Up" class="btn px-4 btn-primary text-white">
+                    <a href="empresaIndex.html"><input type="button"value="Registrarse" class="btn px-4 btn-primary text-white"> </a>
                 </div>
 
             </div>

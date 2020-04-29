@@ -31,7 +31,7 @@ function userForm(){
        
         $("#btnUsuario").click(function(evento){
             evento.preventDefault();
-            ocultarBotones();
+            //ocultarBotones();
             $("#container-usuario-form").load("registroUsuario.php");
         });
     });
@@ -45,7 +45,7 @@ function empresaForm(){
         $("#btnEmpresa").click(function(evento){
           
             evento.preventDefault();
-            ocultarBotones();
+            //ocultarBotones();
             $("#container-usuario-form").load("registroEmpresa.php");
           
         });

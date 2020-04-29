@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="fonts/line-icons/style.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -43,29 +44,98 @@
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
 
-
-    <!-- NAVBAR -->
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.php">XTrabajos</a></div>
+          <nav class="mx-auto site-navigation">
+            <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+              <li class="has-children">
+                <span class="text-white"> CANDIDATO</span>
+                <ul class="dropdown">
+                  <li>
+                    <form action="#" class="p-4 border rounded col-12">
+
+                      <div class="row form-group">
+                        <div class="col-md-12 mb-3 mb-md-0">
+                          <label class="text-black" for="fname">Correo Electrónico</label>
+                          <input type="text" id="fname" class="form-control" placeholder="Correo Electrónico">
+                        </div>
+                      </div>
+                      <div class="row form-group mb-4">
+                        <div class="col-md-12 mb-3 mb-md-0">
+                          <label class="text-black" for="fname">Contraseña</label>
+                          <input type="password" id="fname" class="form-control" placeholder="Contraseña">
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col-md-12">
+                          <a href="usuarioIndex.html"><input type="button" value="Iniciar Sesión" class="btn px-4 btn-primary text-white"></a>
+                        </div>
+                      </div>
+                    </form>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <span class="text-success nav-link"> EMPRESA</span>
+                  <ul class="dropdown">
+                    <form action="#" class="p-4 border rounded col-12">
+
+                      <div class="row form-group">
+                        <div class="col-md-12 mb-3 mb-md-0">
+                          <label class="text-black" for="fname">Correo Electrónico</label>
+                          <input type="text" id="fname" class="form-control" placeholder="Correo Electrónico">
+                        </div>
+                      </div>
+                      <div class="row form-group mb-4">
+                        <div class="col-md-12 mb-3 mb-md-0">
+                          <label class="text-black" for="fname">Contraseña</label>
+                          <input type="password" id="fname" class="form-control" placeholder="Contraseña">
+                        </div>
+                      </div>
+                      <div class="row form-group">
+                        <div class="col-md-12">
+                          <a href="empresaIndex.html"> <input type="button" value="Iniciar Sesión" class="btn px-4 btn-primary text-white"></a>
+                        </div>
+                      </div>
+                    </form>
+                  </ul>
+              </li>
+
+    
+              <li class="has-children ">
+                <span class="text-success nav-link">   REGISTRARSE   </span>
+                
+                  <ul class="dropdown p-4 border rounded col-12">
+                    <li>
+                      <div>
+                        <a href="formUsuario.php">USUARIO</a>
+                      </div>
+                    </li>
+                    <hr>
+                    <li> 
+                      <div>
+                        <a href="formEmpresa.php">EMPRESA</a>
+                      </div>
+                    </li>
+                  </ul>
+              </li>
+
+            </ul>
+          </nav>
 
 
           <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
-            <div class="ml-auto">
-              <!-- <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Publicar Trabajo</a>-->
-              <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
-                  class="mr-2 icon-lock_outline"></span>Iniciar Sesión</a>
-              <a href="registro.php" class="btn btn-primary border-width-2 d-none d-lg-inline-block"
-                id="btnRegistro"><span class="mr-2 icon-lock_outline"></span>Registrarse</a>
-            </div>
             <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span
-                class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+                class="icon-menu h3 m-0 p-0 mt-2">
+              </span>
+            </a>
           </div>
 
         </div>
       </div>
     </header>
+
 
     <!-- HOME -->
     <section class="home-section section-hero overlay bg-image" style="background-image: url('images/hero_1.jpg');"
@@ -133,7 +203,7 @@
           </div>
         </div>
       </div>
-      <!--
+
         <a href="#next" class="scroll-button smoothscroll">
           <span class=" icon-keyboard_arrow_down"></span>
         </a>
@@ -454,6 +524,7 @@
   <script src="js/bootstrap-select.min.js"></script>
 
   <script src="js/custom.js"></script>
+  <script src="js/previsualizar.js"></script>
 
 
 </body>
