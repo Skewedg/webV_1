@@ -70,6 +70,11 @@
                       <input type="password" id="fname" class="form-control" placeholder="Contraseña">
                     </div>
                   </div>
+                  <div class="row form-group mb-4">
+                    <div class="col-md-12 mb-3 mb-md-0">
+                     <a href="recuperador.html">¿Olvidaste tu contraseña?</a>
+                    </div>
+                  </div>
                   <div class="row form-group">
                     <div class="col-md-12">
                       <a href="usuarioIndex.html"><input type="button" value="Iniciar Sesión"
@@ -98,6 +103,11 @@
                       <input type="password" id="fname" class="form-control" placeholder="Contraseña">
                     </div>
                   </div>
+                  <div class="row form-group mb-4">
+                    <div class="col-md-12 mb-3 mb-md-0">
+                     <a href="recuperador.html">¿Olvidaste tu contraseña?</a>
+                    </div>
+                  </div>
                   <div class="row form-group">
                     <div class="col-md-12">
                       <a href="usuarioIndex.html"><input type="button" value="Iniciar Sesión"
@@ -115,7 +125,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item text-black" id="opcRegistro" href="#">SOY USUARIO</a>
                 <hr>
-                <a class="dropdown-item text-black" id="opcRegistro" href="#">SOY EMPRESA</a>
+                <a class="dropdown-item text-black" id="opcRegistro" href="empresaRegistro.html">SOY EMPRESA</a>
                 
               </div>
             </li>

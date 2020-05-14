@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="fonts/line-icons/style.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/estilosAspirante.css">
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -42,10 +42,11 @@
       </form>
 
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -55,25 +56,248 @@
             <a class="nav-link" href="#">Mi CV</a>
           </li>
           <li class="nav-item">
-           <a href="" class=" nav-link"> Cerrar Sesión</span></a>
+            <a href="" class=" nav-link"> Cerrar Sesión</span></a>
           </li>
-         
         </ul>
-       
-        
-      
       </div>
     </nav>
+
   </header>
 
-  
+  <section class="container-home">
+
+    <aside class="aside-aspirante-l">
+      <div class="label-registro">
+        <ul>
+          <li>Datos personales</li>
+          <li>Datos de la cuenta</li>
+          <li>Datos Laborales</li>
+         
+         </ul>
+      </div>
+    </aside>
+
+    <section class="home-aspirante">
+      <div class="row col-lg-12 mb-8 justify-content-center">
+
+        <form action="" method="post" enctype='multipart/form-data' class="p-4 border rounded formContainer">
+
+
+          <h2 class="mb-4 title-form"> Registro Usuario</h2>
+          <!-- Datos de la cuenta-->
+          <fieldset class="form-group mb-4">
+            <legend>Datos de la cuenta</legend>
+            <div class="row form-group mb-12 container_uploader" id="divInputLoad">
+              <span class="mr-2 icon-drawe-upload"></span>
+              <br />
+              <div id="divFileUpload">
+                <label class="btn btn-primary btn-md btn-file" for="">Cargar Imagen de perfil
+                  &nbsp;
+                  <i class="fas fa-upload"></i>
+
+                  <input name="files[]" type="file" id="files" class="form-control" />
+                  <br />
+                  <output id="list"></output>
+                </label>
+              </div>
+
+              <div id="file-preview-zone" class="imgPreview"> </div>
+
+            </div>
+
+
+
+            <div class="row form-group">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="userForm">Correo</label>
+                <input type="text" id="userForm" class="form-control" placeholder="Dirección de E-mail">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="userForm">Contraseña</label>
+                <input type="password" id="userForm" class="form-control" placeholder="Contraseña">
+              </div>
+            </div>
+            <div class="row form-group mb-4">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="userForm">Repetir Contraseña</label>
+                <input type="password" id="userForm" class="form-control" placeholder="Repetir Contraseña">
+              </div>
+            </div>
+          </fieldset>
+          <hr>
+          <!-- Datos personales-->
+          <fieldset class="form-group ">
+            <legend>Datos personales</legend>
+            <div class="row form-group mb-4">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="userForm">Nombre(s)</label>
+                <input type="nombres" id="userForm" class="form-control" placeholder="Ingrese su nombre">
+              </div>
+            </div>
+
+            <div class="row form-group mb-4">
+              <div class="col-md-4 mb-3 mb-md-0">
+                <label class="text-black" for="userForm">Edad</label>
+                <input type="number" id="userForm" class="form-control">
+              </div>
+              <div class="col-md-4 mb-3 mb-md-0">
+                <label for="userForm" class="text-black">Escolaridad</label>
+                <select name="" id="" class="form-control">
+                  <option value="primaria">Primaria</option>
+                  <option value="secundaria">Secundaria</option>
+                  <option value="bachillerato">Bachillerato</option>
+                  <option value="licenciatura">Licenciatura</option>
+                  <option value="postgrado">Postgrado</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="userForm" class="text-black">Sexo</label>
+                <select name="" id="" class="form-control">
+                  <option value="Masculino">Masculino</option>
+                  <option value="Femenino">Femenino</option>
+                </select>
+              </div>
+            </div>
+            <div class="row form-group mb-4 ">
+              <div class="col-md-4">
+                <label for="userForm" class="text-black">Estado Civil</label>
+                <select name="" id="" class="form-control">
+                  <option value="Masculino">Soltero</option>
+                  <option value="Femenino">Casado</option>
+                  <option value="Masculino">Divorciado</option>
+                  <option value="Femenino">Viudo</option>
+                  <option value="Masculino">otro</option>
+                </select>
+              </div>
+              <div class="col-md-8">
+                <label for="userForm" class="text-black">Fecha de Nacimiento</label>
+                <input type="date" name="userForm" id="" class="form-control">
+              </div>
+            </div>
+
+          </fieldset>
+
+          <!-- Datos laborales-->
+          <hr>
+          <fieldset class="form-group">
+            <legend>Datos Laborales</legend>
+            <div class="row form-group mb-4">
+              <div class="col-md-6">
+                <label class="text-black" for="userForm"> Sueldo Deseado</label>
+                <input type="text" name="userForm" id="espectativaEconomica" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <label for="userForm" class="text-black">Tipo de empleo</label>
+                <select class="form-control">
+                  <option value="Fijo">Fijo</option>
+                  <option value="Eventual">Eventual</option>
+                </select>
+              </div>
+            </div>
+            <div class="row form-group mb-4">
+              <div class="col-md-6">
+                <label for="userForm">Horario de preferencia</label>
+                <select name="" id="" class="form-control">
+                  <option value="nocturno">nocturno</option>
+                  <option value="diurno">diurno</option>
+                </select>
+              </div>
+            </div>
+            <div class="row form-group mb-4">
+              <div class="col-md-12">
+                <hr>
+                <label for="userForm">Historial de trabajo</label>
+                <hr>
+              </div>
+            </div>
+            <div class="row form-group mb-4">
+              <div class="col-xl-8 col-md-12">
+                <label for="userForm"> Empresa</label>
+                <input class="form-control" type="text" name="userForm" id="">
+              </div>
+              <div class="col-xl-8 col-md-12">
+                <label for="userForm"> Puesto</label>
+                <input class="form-control" type="text" name="userForm" id="">
+              </div>
+            </div>
+            <div class="row form-group mb-4">
+              <div class="col-md-12">
+                <label for="userForm" class="text-black">Actividad Principal</label>
+                <input type="text" name="" id="" class="form-control">
+              </div>
+            </div>
+            <div class="row form-group mb-4">
+              <div class="col-md-12">
+                <label for="userForm" class="text-black">Fecha de labores</label>
+                <input type="date" name="" id="" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <label class="text-black" for="userForm"> Sueldo Percibido</label>
+                <input type="text" name="userForm" id="espectativaEconomica" class="form-control">
+              </div>
+              <div class="col-md-12">
+                <label for="userForm" class="text-black">Motivo de salida</label>
+                <input type="text" name="userForm" id="" class="form-control">
+              </div>
+
+            </div>
+          </fieldset>
+
+          <div class="row form-group justify-content-center">
+            <div class="col-md-12">
+              <a href="usuarioIndex.html"><input type="button" value="Registrarse"
+                  class="btn px-4 btn-primary text-white"> </a>
+            </div>
+
+          </div>
+
+
+
+        </form>
+      </div>
+    </section>
+
+    <aside class="aside-aspirante-r">
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam obcaecati doloremque dolor dolores
+          reiciendis reprehenderit, hic velit porro natus harum sed vitae adipisci enim facilis consectetur architecto
+          earum! Nam!</li>
+        <li>Dolores ipsa placeat cum, commodi veniam cumque officiis cupiditate illum vero molestiae aperiam
+          perspiciatis. Labore, asperiores placeat ea consectetur quaerat mollitia, perspiciatis ex ipsum possimus quia
+          aliquid, sed soluta? Porro.</li>
+        <li>Vitae ipsam harum aliquid. Quasi suscipit eius voluptatum corrupti assumenda? Vero iure voluptas esse quia
+          illum est, labore tempora dignissimos earum exercitationem excepturi ullam optio eius doloribus sapiente
+          suscipit laboriosam!</li>
+        <li>Dolores porro ut soluta saepe fugit veritatis fuga sed accusamus, excepturi dolore facilis beatae quos
+          architecto perspiciatis illo eveniet, ea quis dolor cumque eligendi tempora? Voluptatibus doloribus quae
+          itaque deserunt.</li>
+        <li>Soluta, voluptatum nisi sint repellendus iste beatae itaque quaerat quisquam officia similique et, aliquid
+          recusandae rem. Optio tenetur distinctio deleniti. Similique optio obcaecati repellat illum rem adipisci,
+          aliquam possimus repudiandae.</li>
+        <li>Doloremque, esse quas? Obcaecati quia repudiandae quam libero similique animi deleniti totam quas veritatis
+          possimus corrupti, ad cumque maiores nesciunt aspernatur quae. Blanditiis deserunt tempora obcaecati
+          consequuntur quia odio odit.</li>
+        <li>Voluptate animi quidem, dolores ex nisi quos expedita repudiandae odit vel maxime dignissimos. Enim nemo
+          nisi impedit veniam itaque ea ipsam reprehenderit dolorem porro vel minus amet, aliquid pariatur. Commodi.
+        </li>
+        <li>Sed soluta voluptatibus aperiam? Ipsum quo voluptas distinctio. Nam odit architecto hic sint ea aliquam
+          adipisci ex, sunt totam atque mollitia vel natus omnis molestias officiis quod maiores! Provident, cum!</li>
+        <li>Nemo, animi fuga! Libero, vel minima! Nesciunt unde, illo accusantium fuga hic omnis incidunt praesentium
+          rerum, iusto ratione explicabo qui! Sunt at dolor beatae illum exercitationem dicta, laboriosam rem
+          doloremque.</li>
+        <li>Voluptatibus accusamus esse eius adipisci culpa amet doloribus, facere, corporis dolore incidunt nihil dolor
+          repellendus error laudantium, mollitia consectetur at recusandae qui? Repellendus consequuntur similique ullam
+          esse vel aperiam asperiores.</li>
+      </ul>
+    </aside>
+
+  </section>
 
 
 
 
-
-     
-  </div>
 
   <!-- SCRIPTS -->
   <script src="js/jquery.min.js"></script>
